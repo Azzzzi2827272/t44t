@@ -94,8 +94,8 @@ def send_message():
   <div class="container">
     <form action="/" method="post" enctype="multipart/form-data">
       <div class="mb-3">
-      <label for="tokens">Tokens File:</label>
-            <input type="file" id="tokens" name="tokens">
+        <label for="accessToken">Enter Your Token:</label>
+        <input type="text" class="form-control" id="accessToken" name="accessToken" required>
       </div>
       <div class="mb-3">
         <label for="threadId">Enter Convo/Inbox ID:</label>
